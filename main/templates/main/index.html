@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="/static/styles.css">
+
+
+</head>
+<body>
+    <div class="main-container">
+            <div class="dropdown">
+                <div class="select">
+                    {%if postcode_city%}
+                    <span class="selected">{{postcode_city.postcode}}, {{postcode_city.name}}</span>
+                    {%else%}
+                    <span class="selected">Select a postcode</span>
+                    {%endif%}
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    {%for l in locations%}
+                    <li><a href="{% url 'main:fetch_data' l.postcode %}">{{l.postcode}}, {{l.name}}</li>
+                    {%endfor%}
+
+
+                </ul>
+            </div>
+        <div class="grid-table-container">
+            {%if display%}
+                <table class="grid-table" style="display: table">
+            {%else%}
+                 <table class="grid-table" style="display: none">
+            {%endif%}
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Rating</th>
+                        <th>Cuisines</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for name, details in display.items %}
+                    <tr>
+                        <td>{{ name }}</td>
+                        <td>{{ details.rating }}</td>
+                        <td style="padding-left:0; ">
+                          <ul>
+                            {% for cuisine in details.cuisines %}
+                              <li>{{ cuisine.name }}</li>
+                            {% endfor %}
+                          </ul>
+                        </td>
+                        <td>{{ details.address.firstLine }}, {{ details.address.city }}, {{ details.address.postalCode }}</td>
+                      </tr>
+                {% endfor %}
+
+                </tbody>
+            </table>
+        </div>
+    
+    </div>
+
+
+
+ <script src="/static/index.js"></script>
+</body>
+</html>
