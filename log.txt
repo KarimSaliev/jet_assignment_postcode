@@ -1,0 +1,47 @@
+commit 7fa83e1bc81774aaca16b4f90769115db742dbab
+Author: KarimSaliev <137375366+KarimSaliev@users.noreply.github.com>
+Date:   Fri Apr 19 16:35:25 2024 +0200
+
+    README.md with improvements
+
+commit 192dc4c11ba3d672fc8a028c29b7510213b68701
+Author: KarimSaliev <137375366+KarimSaliev@users.noreply.github.com>
+Date:   Fri Apr 19 02:59:29 2024 +0200
+
+    final README.md
+
+commit 25dfecc3b039329b26b24a7391cf8f7c37a9f4cd
+Author: KarimSaliev <137375366+KarimSaliev@users.noreply.github.com>
+Date:   Fri Apr 19 02:57:38 2024 +0200
+
+    final version of README.md
+
+commit dbc8b848bee70f9aea08d8ae58f486db91ae18db
+Author: KarimSaliev <137375366+KarimSaliev@users.noreply.github.com>
+Date:   Fri Apr 19 02:55:09 2024 +0200
+
+    fixed requirements.txt
+
+commit 6b193e38ca588a6202b81b488f6866051100b487
+Author: KarimSaliev <137375366+KarimSaliev@users.noreply.github.com>
+Date:   Fri Apr 19 02:40:11 2024 +0200
+
+    fixed requirements.txt
+
+commit 3a84bd02c914522e9b990361bc6c87a25e10456a
+Author: KarimSaliev <137375366+KarimSaliev@users.noreply.github.com>
+Date:   Fri Apr 19 02:23:21 2024 +0200
+
+    spaces corrected, comments added, README.md modified
+
+commit f846e31f3bba3d216cbcb41584604e974fca5307
+Author: KarimSaliev <137375366+KarimSaliev@users.noreply.github.com>
+Date:   Fri Apr 19 01:28:54 2024 +0200
+
+    commit with .gitignore and README.md
+
+commit 0a5a086c56cc1d44fbce26a914235a06099f6929
+Author: KarimSaliev <137375366+KarimSaliev@users.noreply.github.com>
+Date:   Fri Apr 19 00:57:34 2024 +0200
+
+    First commit, gitignore
