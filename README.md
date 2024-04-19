@@ -6,6 +6,7 @@ Simple django project that allows for a data retrieval from Just Eat Takeaway AP
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
+- [Improvements](#improvements)
 
 ## Installation
 Have Python installed on your device as a prerequisite 
@@ -73,3 +74,15 @@ To run the tests that test the urls, views, models use the following command
 ```
 python manage.py test jassignment/tests
 ```
+
+## Improvements
+
+To make the most out of my project in the business context, I would add links to those restaurants
+that would redirect the end users to the restaurant's websites if they have one, or GoogleMaps contact details if they don't.
+
+I would also include some additional data for those restaurants, such as their availability, working-hours for the user
+to be able to narrow down and choose an option of their preference.
+
+Some changes on the front-end part would also be implemented that would make the visual experience for the end-user to
+be more smooth and appealing. This would include using different rating units to convert them to stars. Importing some fonts,
+icons to accompany the data points. For example, a burger cuisine would have a burger next to it, pizza - a pizza icon, etc.
