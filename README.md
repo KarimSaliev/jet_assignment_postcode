@@ -36,6 +36,7 @@ venv/Scripts/activate
 Install the requirements for the project
 
 ```
+cd jet_assignment_postcode
 pip install -r requirements.txt
 ```
 
