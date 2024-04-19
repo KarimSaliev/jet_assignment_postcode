@@ -8,6 +8,7 @@ Simple django project that allows for a data retrieval from Just Eat Takeaway AP
 - [Tests](#tests)
 
 ## Installation
+Have Python installed on your device as a prerequisite 
 
 First create a directory of your choice to pull the project into
 ```
