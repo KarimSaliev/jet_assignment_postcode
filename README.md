@@ -24,12 +24,12 @@ Now set up and activate the virtual environment
 ```
 For Mac/Unix:
 
-virtualenv venv
+python -m venv venv
 source venv/bin/activate
 
 For Windows:
 
-virtualenv venv
+python -m venv venv
 venv/Scripts/activate
 ```
 Install the requirements for the project
