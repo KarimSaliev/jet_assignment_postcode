@@ -38,14 +38,14 @@ Install the requirements for the project
 pip install -r requirements.txt
 ```
 
-Then, make migrations and migrate the tables that would contain the postcode-city data that we would soon populate
+Then, make migrations and migrate the tables that would contain the postcode-area data that we would soon populate
 
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-Now, using fixtures file in the project that contains the initial postcode-city data, we will use it to populate the migrated tables
+Now, using fixtures file in the project that contains the initial postcode-area data, we will use it to populate the migrated tables
 
 ```
 python manage.py loaddata postcode_data.json
@@ -61,7 +61,13 @@ Then just click on a local server address that pops up to be redirected
 ## Usage
 The project itself is a one-page application that allows to look up data on 10 different restaurants from a certain area specified by a postcode.
 
-In the middle of the page, there is a droplist that contains the postcode-city entries, click on any of them and have the restaurant data be displayed to you.
+In the middle of the page, there is a droplist that contains the postcode-area entries, click on any of them and have the restaurant data be displayed to you.
 
 
+## Tests
 
+To run the tests that test the urls, views, models use the following command
+
+```
+python manage.py test jassignment/tests
+```
